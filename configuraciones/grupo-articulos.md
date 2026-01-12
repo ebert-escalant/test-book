@@ -25,8 +25,32 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 
 ### Crear Nuevo
 1. Haga clic en **"Nuevo"**
-2. Complete todos los campos requeridos
+2. Complete el formulario con la información del grupo de artículos
+
+<figure><img src="../.gitbook/assets/grupo-articulos-form.png" alt=""><figcaption></figcaption></figure>
+
+| Campo | Descripción |
+|-------|-------------|
+| Nivel 1 | Categoría principal del producto |
+| Nivel 2 | Subcategoría del producto |
+| Nivel 3 | División específica |
+| Nivel 4 | Línea del producto |
+| Nivel 5 | Sublínea o detalle final |
+| Código cubo | Identificador único del artículo |
+| Largo | Dimensión de largo |
+| Ancho | Dimensión de ancho |
+| Alto | Dimensión de alto |
+| UM Dimensiones | Unidad de medida para dimensiones |
+| Volumen | Volumen del artículo |
+| UM Volumen | Unidad de medida para volumen |
+| Peso | Peso del artículo |
+| UM Peso | Unidad de medida para peso |
+
 3. Haga clic en **"Guardar"**
+
+{% hint style="success" %}
+El nuevo grupo de artículos quedará disponible para usar en la generación de códigos.
+{% endhint %}
 
 ### Editar
 1. Localice el registro en la tabla
