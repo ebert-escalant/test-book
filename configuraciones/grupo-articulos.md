@@ -23,12 +23,31 @@ Gestiona la jerarquía de productos organizada en 5 niveles.
 La sincronización descarga los datos actualizados desde SAP al sistema.
 {% endhint %}
 
-**Crear Nuevo**
-
+### Crear Nuevo
 1. Haga clic en **"Nuevo"**
-2. Complete el formulario con la información del grupo de artículos
+2. Complete el formulario
+3. Haga clic en **"Guardar"**
 
-<figure><img src="../.gitbook/assets/grupo-articulos-form.png" alt=""><figcaption></figcaption></figure>
+### Editar
+1. Haga clic en el ícono de edición (✏️)
+2. Modifique los campos necesarios
+3. Haga clic en **"Guardar"**
+
+{% hint style="warning" %}
+Solo se pueden editar los registros creados manualmente.
+{% endhint %}
+
+### Eliminar
+1. Haga clic en el ícono de eliminar (🗑️)
+2. Confirme la acción
+
+{% hint style="danger" %}
+Solo se pueden eliminar los registros creados manualmente.
+{% endhint %}
+
+## Formulario de Creación
+
+![Formuario de grupo de articulos](../.gitbook/assets/grupo-articulos-form.png)
 
 | Campo | Descripción |
 |-------|-------------|
@@ -42,31 +61,6 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 | UM Volumen | Unidad de medida para volumen |
 | Peso | Peso del artículo |
 | UM Peso | Unidad de medida para peso |
-
-3. Haga clic en **"Guardar"**
-
-{% hint style="success" %}
-El nuevo grupo de artículos quedará disponible para usar en la generación de códigos.
-{% endhint %}
-
-### Editar
-1. Localice el registro en la tabla
-2. Haga clic en el ícono de edición (✏️)
-3. Modifique los campos necesarios
-4. Haga clic en **"Guardar"**
-
-{% hint style="warning" %}
-**Restricción:** Solo se pueden editar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden modificar.
-{% endhint %}
-
-### Eliminar
-1. Localice el registro en la tabla
-2. Haga clic en el ícono de eliminar (🗑️)
-3. Confirme la acción
-
-{% hint style="danger" %}
-**Restricción:** Solo se pueden eliminar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden eliminar.
-{% endhint %}
 
 ## Campos
 
