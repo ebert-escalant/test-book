@@ -10,8 +10,6 @@ Los catálogos maestros contienen los datos base que alimentan los formularios d
 **Ruta:** Menú → Configuraciones → [Seleccionar opción]
 {% endhint %}
 
----
-
 ## Listado de Catálogos Disponibles
 
 <figure><img src="../.gitbook/assets/config-menu.png" alt=""><figcaption></figcaption></figure>
@@ -32,8 +30,6 @@ Los catálogos maestros contienen los datos base que alimentan los formularios d
 | Grupo Artículo y Tallero | Relación grupo-tallero |
 | Paquete | Tipos de paquetes |
 | Proveedor | Proveedores |
-
-***
 
 ## Operaciones Comunes
 
@@ -64,8 +60,6 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 {% hint style="success" %}
 El valor por defecto se seleccionará automáticamente en los formularios de creación.
 {% endhint %}
-
-***
 
 ## Catálogos Especiales
 

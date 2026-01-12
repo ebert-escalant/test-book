@@ -8,8 +8,6 @@ Configuración de la relación entre grupos de artículos y talleros.
 
 **Ruta:** Configuraciones → Grupo Artículo y Tallero
 
----
-
 ## Operaciones Disponibles
 
 ### Buscar
@@ -35,8 +33,6 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 {% hint style="warning" %}
 **Restricción:** Solo se pueden editar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden modificar. Esta configuración determina qué tallero se muestra automáticamente al generar códigos para un grupo de artículo específico.
 {% endhint %}
-
----
 
 | Campo | Descripción |
 |-------|-------------|

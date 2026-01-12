@@ -8,8 +8,6 @@ Catálogo de proveedores disponibles para los productos.
 
 **Ruta:** Configuraciones → Proveedor
 
----
-
 ## Operaciones Disponibles
 
 ### Buscar
@@ -34,8 +32,6 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 {% hint style="success" %}
 El valor por defecto se seleccionará automáticamente en los formularios de órdenes de compra.
 {% endhint %}
-
----
 
 | Campo | Descripción |
 |-------|-------------|

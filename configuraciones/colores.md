@@ -8,8 +8,6 @@ Catálogo de colores disponibles para los productos.
 
 **Ruta:** Configuraciones → Colores
 
----
-
 ## Operaciones Disponibles
 
 ### Buscar
@@ -35,8 +33,6 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 {% hint style="warning" %}
 **Restricción:** Solo se pueden editar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden modificar.
 {% endhint %}
-
----
 
 | Campo | Descripción |
 |-------|-------------|

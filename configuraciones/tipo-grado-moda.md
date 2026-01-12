@@ -8,8 +8,6 @@ Catálogo de tipos de grado de moda para los productos.
 
 **Ruta:** Configuraciones → Tipo de Grado de Moda
 
----
-
 ## Operaciones Disponibles
 
 ### Buscar
@@ -34,8 +32,6 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 {% hint style="success" %}
 El valor por defecto se seleccionará automáticamente en los formularios de generación de códigos.
 {% endhint %}
-
----
 
 | Campo | Descripción |
 |-------|-------------|

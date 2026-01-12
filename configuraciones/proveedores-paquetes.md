@@ -28,8 +28,6 @@ Catálogo de proveedores del sistema.
 2. Modifique los datos
 3. Haga clic en **"Actualizar"**
 
----
-
 ## Paquetes
 
 Catálogo de tipos de paquetes.

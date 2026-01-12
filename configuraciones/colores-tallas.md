@@ -6,8 +6,6 @@ icon: palette
 
 Configuración de colores, talleros y relaciones con grupos de artículos.
 
----
-
 ## Colores
 
 Catálogo de colores disponibles para los productos.
@@ -29,8 +27,6 @@ Catálogo de colores disponibles para los productos.
 * Sincronizar con SAP
 * Establecer valor por defecto
 
-***
-
 ## Tallero y Tallas
 
 Gestión de talleros (conjuntos de tallas) y sus tallas asociadas.
@@ -50,8 +46,6 @@ Gestión de talleros (conjuntos de tallas) y sus tallas asociadas.
 {% hint style="success" %}
 Cada tallero agrupa un conjunto de tallas específico. Por ejemplo: XS, S, M, L, XL para adultos o 2, 4, 6, 8 para niños.
 {% endhint %}
-
-***
 
 ## Grupo Artículo y Tallero
 

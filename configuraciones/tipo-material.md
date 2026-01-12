@@ -8,8 +8,6 @@ Catálogo de tipos de materiales disponibles para los productos.
 
 **Ruta:** Configuraciones → Tipo Material
 
----
-
 ## Operaciones Disponibles
 
 ### Buscar
@@ -25,8 +23,6 @@ Catálogo de tipos de materiales disponibles para los productos.
 {% hint style="info" %}
 La sincronización descarga los datos actualizados desde SAP al sistema. Este catálogo es de solo lectura y se administra desde SAP.
 {% endhint %}
-
----
 
 | Campo | Descripción |
 |-------|-------------|

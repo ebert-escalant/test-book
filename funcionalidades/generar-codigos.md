@@ -10,8 +10,6 @@ Módulo principal para crear códigos de materiales con sus variantes por color 
 **Acceso:** Desde el detalle de cada Orden de Compra (ícono →)
 {% endhint %}
 
----
-
 ## Pantalla Principal
 
 Al ingresar al detalle de una orden verá la pantalla de generación de códigos.
@@ -32,8 +30,6 @@ Al ingresar al detalle de una orden verá la pantalla de generación de códigos
 | Creación | Usuario y fecha |
 | Estado | Abierto / Cerrado |
 | Acciones | Editar, Agregar, Eliminar |
-
-***
 
 ## Crear Proceso de Codificación
 
@@ -85,8 +81,6 @@ Haga clic en **"Siguiente"**
 Debe seleccionar al menos un color y una talla para generar las variantes.
 {% endhint %}
 
-***
-
 ## Ver Variantes
 
 1. Haga clic en el ícono **˅** (expandir) junto al código
@@ -96,8 +90,6 @@ Debe seleccionar al menos un color y una talla para generar las variantes.
    * Descripción
    * Color y Talla
    * Estado SAP
-
-***
 
 ## Imprimir Códigos de Barras
 
@@ -112,8 +104,6 @@ Debe seleccionar al menos un color y una talla para generar las variantes.
 Debe configurar previamente la impresora Bluetooth. Ver sección [Impresora Bluetooth](../adicional/impresora-bluetooth.md).
 {% endhint %}
 
-***
-
 ## Sincronizar con SAP
 
 1. Seleccione los códigos a sincronizar
@@ -125,8 +115,6 @@ Debe configurar previamente la impresora Bluetooth. Ver sección [Impresora Blue
 {% hint style="info" %}
 El proceso de sincronización se ejecuta en segundo plano y puede tomar varios minutos.
 {% endhint %}
-
-***
 
 ## Regresar
 

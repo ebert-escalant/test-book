@@ -6,8 +6,6 @@ icon: headset
 
 Información de contacto y guía para reportar problemas.
 
----
-
 ## Canales de Atención
 
 | Canal | Información |
@@ -19,8 +17,6 @@ Información de contacto y guía para reportar problemas.
 {% hint style="info" %}
 Para una atención más rápida, utilice el correo electrónico detallando el problema.
 {% endhint %}
-
-***
 
 ## Al Reportar un Problema
 
@@ -35,8 +31,6 @@ Para una resolución más rápida, incluya la siguiente información:
 | Capturas de pantalla | Imágenes del error si es posible |
 | Información técnica | Navegador, versión, dispositivo, sistema operativo |
 | Fecha y hora | Cuándo ocurrió el problema |
-
-***
 
 ## Ejemplo de Reporte
 

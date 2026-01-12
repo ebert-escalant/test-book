@@ -8,8 +8,6 @@ Gestión de talleros (conjuntos de tallas) y sus tallas asociadas.
 
 **Ruta:** Configuraciones → Tallero y Tallas
 
----
-
 ## Operaciones Disponibles
 
 ### Buscar
@@ -35,8 +33,6 @@ La sincronización descarga los datos actualizados desde SAP al sistema, incluye
 {% hint style="warning" %}
 **Restricción:** Solo se pueden editar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden modificar.
 {% endhint %}
-
----
 
 | Campo | Descripción |
 |-------|-------------|

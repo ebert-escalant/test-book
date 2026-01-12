@@ -8,8 +8,6 @@ Catálogo de unidades de medida para los productos.
 
 **Ruta:** Configuraciones → Unidad de Medida
 
----
-
 ## Operaciones Disponibles
 
 ### Buscar
@@ -34,8 +32,6 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 {% hint style="success" %}
 El valor por defecto se seleccionará automáticamente en los formularios de generación de códigos.
 {% endhint %}
-
----
 
 | Campo | Descripción |
 |-------|-------------|

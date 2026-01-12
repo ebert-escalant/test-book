@@ -8,8 +8,6 @@ Gestiona la jerarquía de productos organizada en 5 niveles.
 
 **Ruta:** Configuraciones → Grupo de Artículos
 
----
-
 ## Operaciones Disponibles
 
 ### Buscar
@@ -48,8 +46,6 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 {% hint style="danger" %}
 **Restricción:** Solo se pueden eliminar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden eliminar.
 {% endhint %}
-
----
 
 ## Campos
 

@@ -6,8 +6,6 @@ icon: circle-question
 
 Respuestas a las consultas más comunes sobre el sistema.
 
----
-
 ## Acceso al Sistema
 
 <details>
@@ -25,8 +23,6 @@ Respuestas a las consultas más comunes sobre el sistema.
 El acceso a módulos depende de los permisos asignados a su usuario. Contacte al administrador del sistema para solicitar acceso.
 
 </details>
-
-***
 
 ## Funcionalidad
 
@@ -58,8 +54,6 @@ No, el sistema requiere conexión a Internet activa para todas las operaciones.
 
 </details>
 
-***
-
 ## Impresión
 
 <details>
@@ -81,8 +75,6 @@ Verifique:
 * Que usa Google Chrome (otros navegadores tienen soporte limitado)
 
 </details>
-
-***
 
 ## Aplicación PWA
 
