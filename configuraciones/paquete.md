@@ -15,39 +15,36 @@ Catálogo de tipos de paquetes disponibles para los productos.
 2. Haga clic en el botón **"Buscar"**
 3. La tabla mostrará los resultados
 
-### Sincronizar con SAP
-1. Haga clic en **"Sincronizar con SAP"**
-2. Confirme la acción en el mensaje emergente
-3. Espere a que se complete la sincronización
-4. Los datos se actualizarán automáticamente
+### Crear Nuevo
+1. Haga clic en **"Nuevo"**
+2. Complete el formulario
+3. Haga clic en **"Guardar"**
 
-{% hint style="info" %}
-La sincronización descarga los datos actualizados desde SAP al sistema.
+### Editar
+1. Haga clic en el ícono de edición (✏️)
+2. Modifique los campos necesarios
+3. Haga clic en **"Actualizar"**
+
+### Eliminar
+1. Haga clic en el ícono de eliminar (🗑️)
+2. Confirme la acción
+
+{% hint style="danger" %}
+Esta acción eliminará permanentemente el registro.
 {% endhint %}
 
 <!-- -->
 
-### Establecer Valor por Defecto
-1. Localice el registro deseado en la tabla
-2. Haga clic en el ícono **"Aplicar por defecto"** (📋)
-3. Confirme la acción
+## Formulario de Creación
 
-{% hint style="success" %}
-El valor por defecto se seleccionará automáticamente en los formularios de generación de códigos.
-{% endhint %}
+![Formulario de paquete](../.gitbook/assets/paquete-form.png)
+
+## Campos
 
 | Campo | Descripción |
 |-------|-------------|
-| Código | Código del paquete |
-| Descripción | Nombre del paquete |
-| Valor por defecto | Indica si es el paquete predeterminado |
-
-{% hint style="info" %}
-La sincronización descarga los datos actualizados desde SAP al sistema.
-{% endhint %}
-
-{% hint style="success" %}
-El valor por defecto se seleccionará automáticamente en los formularios de creación.
-{% endhint %}
+| Abreviatura | Código o abreviatura del paquete |
+| Descripción | Nombre descriptivo del paquete |
+| Fecha de registro | Fecha y hora de creación del registro (se asigna automáticamente) |
 
 ![Paquete](../.gitbook/assets/paquete.png)
