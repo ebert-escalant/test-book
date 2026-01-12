@@ -1,5 +1,5 @@
 ---
-icon: circles
+icon: layer-group
 ---
 
 # Grupo Artículo y Tallero
