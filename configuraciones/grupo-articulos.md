@@ -23,7 +23,8 @@ Gestiona la jerarquía de productos organizada en 5 niveles.
 La sincronización descarga los datos actualizados desde SAP al sistema.
 {% endhint %}
 
-### Crear Nuevo
+**Crear Nuevo**
+
 1. Haga clic en **"Nuevo"**
 2. Complete el formulario con la información del grupo de artículos
 
@@ -31,11 +32,7 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 
 | Campo | Descripción |
 |-------|-------------|
-| Nivel 1 | Categoría principal del producto |
-| Nivel 2 | Subcategoría del producto |
-| Nivel 3 | División específica |
-| Nivel 4 | Línea del producto |
-| Nivel 5 | Sublínea o detalle final |
+| Niveles | Seleccione la jerarquía de 5 niveles (Categoría → Subcategoría → División → Línea → Sublínea) |
 | Código cubo | Identificador único del artículo |
 | Largo | Dimensión de largo |
 | Ancho | Dimensión de ancho |
@@ -75,15 +72,6 @@ El nuevo grupo de artículos quedará disponible para usar en la generación de 
 
 | Campo | Descripción |
 |-------|-------------|
-| Código cubo | Identificador único |
-| Largo | Dimensión largo |
-| Ancho | Dimensión ancho |
-| Alto | Dimensión alto |
-| UM Dimensiones | Unidad de medida |
-| Volumen | Volumen calculado |
-| UM Volumen | Unidad de volumen |
-| Peso | Peso del artículo |
-| UM Peso | Unidad de peso |
 | Nivel 1 | Categoría principal |
 | Nivel 2 | Subcategoría |
 | Nivel 3 | División |
@@ -94,13 +82,13 @@ El nuevo grupo de artículos quedará disponible para usar en la generación de 
 
 ## Jerarquía de Niveles
 
-```
-Nivel 1 (Categoría)
-└── Nivel 2 (Subcategoría)
-    └── Nivel 3 (División)
-        └── Nivel 4 (Línea)
-            └── Nivel 5 (Sublínea)
-```
+La estructura jerárquica de clasificación de productos tiene 5 niveles:
+
+* **Nivel 1**: Categoría principal
+* **Nivel 2**: Subcategoría
+* **Nivel 3**: División
+* **Nivel 4**: Línea
+* **Nivel 5**: Sublínea
 
 {% hint style="info" %}
 Los niveles se usan en la generación de códigos para clasificar los productos.
