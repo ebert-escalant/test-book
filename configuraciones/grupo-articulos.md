@@ -11,8 +11,9 @@ Gestiona la jerarquía de productos organizada en 5 niveles.
 ## Operaciones Disponibles
 
 ### Buscar
-- Use el campo de búsqueda para filtrar por código o descripción
-- La tabla se actualiza automáticamente
+1. Use el campo de búsqueda para filtrar por código o descripción
+2. Haga clic en el botón **"Buscar"**
+3. La tabla mostrará los resultados
 
 ### Sincronizar con SAP
 - Haga clic en **"Sincronizar con SAP"**

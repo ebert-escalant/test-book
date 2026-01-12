@@ -11,8 +11,9 @@ Catálogo de proveedores disponibles para los productos.
 ## Operaciones Disponibles
 
 ### Buscar
-- Use el campo de búsqueda para filtrar por código o descripción
-- La tabla se actualiza automáticamente
+1. Use el campo de búsqueda para filtrar por código o descripción
+2. Haga clic en el botón **"Buscar"**
+3. La tabla mostrará los resultados
 
 ### Sincronizar con SAP
 1. Haga clic en **"Sincronizar con SAP"**
