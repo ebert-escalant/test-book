@@ -24,18 +24,27 @@ Catálogo de colores disponibles para los productos.
 {% hint style="info" %}
 La sincronización descarga los datos actualizados desde SAP al sistema.
 {% endhint %}
-
 <!-- -->
 
 ### Editar
 1. Localice el registro en la tabla
 2. Haga clic en el ícono de edición (✏️)
-3. Modifique los campos necesarios
-4. Haga clic en **"Guardar"**
+3. Modifique el campo disponible
+
+![Formulario Colores](../.gitbook/assets/colores-form.png)
+
+| Campo | Descripción |
+|-------|-------------|
+| Valor por defecto | Marca o desmarca si este material es el predeterminado |
+
+4. Haga clic en **"Actualizar"**
 
 {% hint style="warning" %}
-**Restricción:** Solo se pueden editar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden modificar.
+Solo se puede editar el campo **"Valor por defecto"**. Los campos Código y Descripción son de solo lectura ya que provienen de SAP.
 {% endhint %}
+<!-- -->
+
+### Campos
 
 | Campo | Descripción |
 |-------|-------------|
