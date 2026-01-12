@@ -11,43 +11,31 @@ Catálogo de proveedores disponibles para los productos.
 ## Operaciones Disponibles
 
 ### Buscar
-1. Use el campo de búsqueda para filtrar por código o descripción
+1. Use el campo de búsqueda para filtrar por abreviatura o descripción
 2. Haga clic en el botón **"Buscar"**
 3. La tabla mostrará los resultados
 
-### Sincronizar con SAP
-1. Haga clic en **"Sincronizar con SAP"**
-2. Confirme la acción en el mensaje emergente
-3. Espere a que se complete la sincronización
-4. Los datos se actualizarán automáticamente
+### Editar
+1. Haga clic en el ícono de edición (✏️)
+2. Modifique los campos necesarios
+3. Haga clic en **"Actualizar"**
 
 {% hint style="info" %}
-La sincronización descarga los datos actualizados desde SAP al sistema.
+Los proveedores son registros importados del sistema. Solo se pueden editar campos específicos.
 {% endhint %}
 
 <!-- -->
 
-### Establecer Valor por Defecto
-1. Localice el registro deseado en la tabla
-2. Haga clic en el ícono **"Aplicar por defecto"** (📋)
-3. Confirme la acción
+## Formulario de Edición
 
-{% hint style="success" %}
-El valor por defecto se seleccionará automáticamente en los formularios de órdenes de compra.
-{% endhint %}
+![Formulario de proveedor](../.gitbook/assets/proveedor-form.png)
+
+## Campos
 
 | Campo | Descripción |
 |-------|-------------|
-| Código | Código del proveedor |
-| Descripción | Nombre del proveedor |
-| Valor por defecto | Indica si es el proveedor predeterminado |
-
-{% hint style="info" %}
-La sincronización descarga los datos actualizados desde SAP al sistema.
-{% endhint %}
-
-{% hint style="success" %}
-El valor por defecto se seleccionará automáticamente en los formularios de creación.
-{% endhint %}
+| Abreviatura | Abreviatura o código corto del proveedor |
+| Descripción | Nombre descriptivo del proveedor |
+| Fecha de registro | Fecha y hora de creación del registro (se muestra en la tabla) |
 
 ![Proveedor](../.gitbook/assets/proveedor.png)
