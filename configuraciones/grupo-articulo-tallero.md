@@ -11,7 +11,7 @@ Configuración de la relación entre grupos de artículos y talleros.
 ## Operaciones Disponibles
 
 ### Buscar
-1. Use el campo de búsqueda para filtrar por código o descripción
+1. Use el campo de búsqueda para filtrar por Grupo artículo, Código SAP Tallero y Tallero
 2. Haga clic en el botón **"Buscar"**
 3. La tabla mostrará los resultados
 
@@ -51,7 +51,7 @@ Solo se pueden editar los registros creados manualmente.
 
 | Campo | Descripción |
 |-------|-------------|
-| Grupo artículo nivel 5 | Grupo de artículo de nivel 5 (Linea) |
+| Grupo artículo | Grupo de artículo de nivel 5 (Linea) |
 | Código SAP Tallero | Código del grupo de artículo asociado proveniente de SAP (se asigna automáticamente al seleccionar el grupo de artículo) |
 | Tallero | Tallero a asociar con el grupo de artículo |
 | Tallas | Lista de tallas disponibles en el tallero seleccionado (solo visualización) |

@@ -11,7 +11,7 @@ Catálogo de tipos de paquetes disponibles para los productos.
 ## Operaciones Disponibles
 
 ### Buscar
-1. Use el campo de búsqueda para filtrar por código o descripción
+1. Use el campo de búsqueda para filtrar por abreviatura o descripción
 2. Haga clic en el botón **"Buscar"**
 3. La tabla mostrará los resultados
 
