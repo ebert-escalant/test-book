@@ -37,6 +37,7 @@ Muestra todos los procesos de codificación creados para la orden:
 | Proceso de Codificación | Código del proceso (ej: MT000046) |
 | Comentario | Observaciones del proceso |
 | Creación | Usuario y fecha de creación |
+| Modificación | Usuario y fecha de modificación |
 | Estado | Abierto / Cerrado |
 | Acciones | Editar datos generales, Agregar variantes, Eliminar proceso |
 
@@ -66,7 +67,15 @@ Cada paso debe completarse antes de avanzar al siguiente. Los datos se guardan a
 
 Este paso configura la información base que aplica a todos los productos del proceso.
 
-![Formulario de datos generales](../.gitbook/assets/generar-paso1.png)
+![Formulario de datos generales](../.gitbook/assets/generar-codigo-paso1.png)
+
+{% hint style="info" %}
+**Comportamiento según el contexto:**
+- **Primer proceso:** Si es el primer proceso de codificación para la orden, todos los campos están habilitados para edición.
+- **Procesos adicionales:** Si ya existe al menos un proceso, los campos se muestran en modo vista (solo lectura), utilizando los datos generales del proceso existente.
+{% endhint %}
+
+<!-- -->
 
 #### Campos del Formulario
 
@@ -110,7 +119,7 @@ Muchos campos tienen valores predeterminados configurados en los catálogos maes
 
 En este paso se definen los detalles específicos del producto a crear.
 
-![Formulario de código de material](../.gitbook/assets/generar-paso2.png)
+![Formulario de código de material](../.gitbook/assets/generar-codigo-paso2.png)
 
 #### Campos del Formulario
 
@@ -140,6 +149,7 @@ Los niveles forman una jerarquía de 5 niveles que construyen el código del gru
 ```
 R → RZ → RZC → RZCACC → RZCACCCAM
 ```
+<!-- -->
 
 {% hint style="info" %}
 El código completo del grupo de artículo (Nivel 5) es esencial para vincular el tallero predeterminado en el siguiente paso.
@@ -165,7 +175,7 @@ El código completo del grupo de artículo (Nivel 5) es esencial para vincular e
 
 Último paso donde se seleccionan los colores y tallas para generar todas las variantes del producto.
 
-![Formulario de colores y tallas](../.gitbook/assets/generar-paso3.png)
+![Formulario de colores y tallas](../.gitbook/assets/generar-codigo-paso3.png)
 
 #### Información del Producto
 
@@ -262,27 +272,19 @@ Después de generar las variantes, aparece automáticamente el modal de impresi�
 3. Haga clic en **"Imprimir"**
 4. El sistema enviará los códigos a la impresora
 
+![Formulario de impresión](../.gitbook/assets/generar-codigo-impresion.png)
+
+**Después de Imprimir:**
+- Al finalizar la impresión o presionar **"Cancelar"**, el sistema lo redirige automáticamente al **Paso 2** (Código de Material)
+- Esto le permite agregar rápidamente más códigos internos al mismo proceso de codificación
+- Puede repetir el proceso: Paso 2 → Paso 3 → Imprimir → Volver al Paso 2
+- Si no desea agregar más códigos, cierre el wizard con el botón **"Cancelar"** del Paso 2
+
 {% hint style="warning" %}
 Debe tener configurada previamente la impresora Bluetooth. Ver [Impresora Bluetooth](../adicional/impresora-bluetooth.md).
 {% endhint %}
 
 <!-- -->
-
-#### Impresión por Archivo PDF
-
-**Pasos:**
-1. Haga clic en **"Descargar PDF"**
-2. El sistema generará un archivo PDF con todos los códigos de barras
-3. El archivo se descargará automáticamente en su navegador
-4. Puede imprimir el PDF desde cualquier impresora
-
-### Botones del Modal
-
-| Botón | Función |
-|-------|---------|
-| **Cancelar** | Cierra el modal sin imprimir |
-| **Descargar PDF** | Genera y descarga el PDF con los códigos |
-| **Imprimir** | Envía a impresora Bluetooth (solo visible si seleccionó impresora) |
 
 ## Gestión de Procesos de Codificación
 
