@@ -6,7 +6,7 @@ icon: print
 
 Configuración para impresión de códigos de barras mediante Bluetooth.
 
-***
+---
 
 ## Habilitar Bluetooth en Chrome
 

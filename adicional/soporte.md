@@ -6,7 +6,7 @@ icon: headset
 
 Información de contacto y guía para reportar problemas.
 
-***
+---
 
 ## Canales de Atención
 

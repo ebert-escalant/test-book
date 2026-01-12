@@ -1,6 +1,4 @@
----
 icon: house
----
 
 # Pantalla Principal (Dashboard)
 
@@ -40,4 +38,7 @@ El menú lateral izquierdo contiene las siguientes opciones:
 ## Cerrar Sesión
 
 1. En el menú lateral, haga clic en **"Salir"**
+2. Será redirigido a la pantalla de inicio de sesión
+---
+
 2. Será redirigido a la pantalla de inicio de sesión

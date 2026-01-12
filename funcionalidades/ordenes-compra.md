@@ -10,7 +10,7 @@ Gestión de pedidos vinculados con SAP y acceso a la generación de códigos.
 **Ruta:** Menú → Órdenes de compra
 {% endhint %}
 
-***
+--- 
 
 ## Listado de Órdenes
 
@@ -28,7 +28,7 @@ Al acceder verá la tabla con todas las órdenes de compra registradas.
 | Estado | Abierto / Cerrado |
 | Acciones | Editar, Detalle, Eliminar |
 
-***
+--- 
 
 ## Buscar Órdenes
 
@@ -36,7 +36,7 @@ Al acceder verá la tabla con todas las órdenes de compra registradas.
 2. Escriba el número de pedido, embarque o proveedor
 3. La tabla se filtrará automáticamente
 
-***
+--- 
 
 ## Crear Nueva Orden
 
@@ -59,7 +59,7 @@ Al acceder verá la tabla con todas las órdenes de compra registradas.
 Todos los campos marcados con asterisco (*) son obligatorios.
 {% endhint %}
 
-***
+--- 
 
 ## Editar Orden
 
@@ -68,7 +68,7 @@ Todos los campos marcados con asterisco (*) son obligatorios.
 3. Modifique los datos necesarios
 4. Haga clic en **"Actualizar"**
 
-***
+--- 
 
 ## Eliminar Orden
 

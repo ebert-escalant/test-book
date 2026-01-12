@@ -6,7 +6,7 @@ icon: palette
 
 Configuración de colores, talleros y relaciones con grupos de artículos.
 
-***
+---
 
 ## Colores
 

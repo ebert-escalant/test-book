@@ -10,7 +10,7 @@ Módulo principal para crear códigos de materiales con sus variantes por color 
 **Acceso:** Desde el detalle de cada Orden de Compra (ícono →)
 {% endhint %}
 
-***
+---
 
 ## Pantalla Principal
 

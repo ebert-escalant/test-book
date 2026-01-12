@@ -6,7 +6,7 @@ icon: circle-question
 
 Respuestas a las consultas más comunes sobre el sistema.
 
-***
+---
 
 ## Acceso al Sistema
 
