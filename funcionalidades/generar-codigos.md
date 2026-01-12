@@ -342,12 +342,7 @@ Esta opción imprime todas las variantes del código interno seleccionado de una
 5. El sistema actualizará la información y refrescará la tabla
 
 {% hint style="warning" %}
-
-**Restricciones:**
-
-- Solo se pueden editar códigos con estado "Sin procesar"
-- Debe tener al menos una variante creada (`quantityVariants > 0`)
-- No se puede editar si ya está "Procesado" en SAP
+**Restricciones:** Solo se pueden editar códigos con estado "Sin procesar", debe tener al menos una variante creada (`quantityVariants > 0`) y no puede estar "Procesado" en SAP.
 {% endhint %}
 
 <!-- -->
@@ -360,10 +355,7 @@ Esta opción imprime todas las variantes del código interno seleccionado de una
 4. Use el botón **Cerrar** cuando termine
 
 {% hint style="warning" %}
-**Restricciones:**
-- Solo disponible para códigos con estado "Sin procesar"
-- Debe tener al menos una variante creada (`quantityVariants > 0`)
-- Las variantes "Procesado" en SAP no pueden eliminarse
+**Restricciones:** Solo disponible para códigos con estado "Sin procesar", debe tener al menos una variante creada (`quantityVariants > 0`) y las variantes "Procesado" en SAP no pueden eliminarse.
 {% endhint %}
 
 <!-- -->
@@ -505,11 +497,7 @@ Después de imprimir exitosamente por Bluetooth, el sistema muestra un mensaje d
 5. La variante se eliminará permanentemente
 
 {% hint style="danger" %}
-**Restricciones importantes:**
-- La columna de Acciones solo es visible si abrió el modal en "modo edición" (`isEdit: true`)
-- Solo se pueden eliminar variantes de códigos con estado "Sin procesar"
-- Las variantes de códigos "Procesado" (sincronizados con SAP) no pueden eliminarse
-- Esta acción es irreversible
+**Restricciones importantes:** La columna de Acciones solo es visible si abrió el modal en "modo edición" (`isEdit: true`), solo se pueden eliminar variantes de códigos con estado "Sin procesar", las variantes de códigos "Procesado" (sincronizados con SAP) no pueden eliminarse y esta acción es irreversible.
 {% endhint %}
 
 <!-- -->
