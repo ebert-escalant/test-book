@@ -32,12 +32,7 @@ Muestra las órdenes de compra disponibles para contabilización.
 | Nro de Embarque | Número de embarque |
 | Proveedor | Nombre del proveedor |
 | Estado | Estado de la orden |
-| Acciones | Botón para contabilizar |
-
-### Iniciar Contabilización
-1. Localice la orden deseada en la tabla
-2. Haga clic en el botón **"Contabilizar"**
-3. Se abrirá la pantalla de contabilización de cajas
+| Acciones | Botón para desplegar la lista de contabilización de prendas |
 
 ## Gestión de Cajas Contabilizadas
 
@@ -54,13 +49,13 @@ Una vez dentro de una orden de compra, podrá ver y gestionar las cajas contabil
 
 ### Operaciones Disponibles
 
-**Crear Nueva Caja**
-1. Haga clic en **"+ Nueva caja"**
+**Crear Nuevo**
+1. Haga clic en **"+ Nuevo"**
 2. Complete el formulario de contabilización
 3. Agregue las variantes con sus cantidades
 4. Haga clic en **"Guardar"**
 
-**Editar Caja**
+**Editar**
 1. Localice la caja en la tabla
 2. Haga clic en el ícono de edición (✏️)
 3. Modifique las variantes o cantidades
@@ -71,7 +66,7 @@ Una vez dentro de una orden de compra, podrá ver y gestionar las cajas contabil
 2. Haga clic en el ícono de visualización (👁️)
 3. Podrá ver el detalle sin poder modificar
 
-**Eliminar Caja**
+**Eliminar**
 1. Localice la caja en la tabla
 2. Haga clic en el ícono de eliminar (🗑️)
 3. Confirme la acción
@@ -142,8 +137,8 @@ Muestra todas las variantes agregadas a la caja:
 | Código de caja | Identificador de la caja |
 | Código interno | Código del producto |
 | Descripción | Nombre del producto |
-| Variante | Color y talla de la prenda |
-| Cantidad | Número de prendas |
+| Color y talla | Color y talla de la prenda |
+| Cantidad total | Número de prendas |
 | Acciones | Eliminar (🗑️) - solo en modo edición |
 
 {% hint style="success" %}
