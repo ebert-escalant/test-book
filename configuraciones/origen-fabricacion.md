@@ -24,17 +24,27 @@ Catálogo de orígenes de fabricación para los productos.
 {% hint style="info" %}
 La sincronización descarga los datos actualizados desde SAP al sistema.
 {% endhint %}
-
 <!-- -->
 
-### Establecer Valor por Defecto
-1. Localice el registro deseado en la tabla
-2. Haga clic en el ícono **"Aplicar por defecto"** (📋)
-3. Confirme la acción
+### Editar
+1. Localice el registro en la tabla
+2. Haga clic en el ícono de edición (✏️)
+3. Modifique el campo disponible
 
-{% hint style="success" %}
-El valor por defecto se seleccionará automáticamente en los formularios de generación de códigos.
+![Formulario Origen Fabricación](../.gitbook/assets/origen-fabricacion-form.png)
+
+| Campo | Descripción |
+|-------|-------------|
+| Valor por defecto | Marca o desmarca si este material es el predeterminado |
+
+4. Haga clic en **"Actualizar"**
+
+{% hint style="warning" %}
+Solo se puede editar el campo **"Valor por defecto"**. Los campos Código y Descripción son de solo lectura ya que provienen de SAP.
 {% endhint %}
+<!-- -->
+
+### Campos
 
 | Campo | Descripción |
 |-------|-------------|

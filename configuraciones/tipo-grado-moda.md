@@ -31,7 +31,7 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 2. Haga clic en el ícono de edición (✏️)
 3. Modifique el campo disponible
 
-![Formulario Tipo de Grado de Moda](../.gitbook/assets/tipo-grado-moda.png)
+![Formulario Tipo de Grado de Moda](../.gitbook/assets/tipo-grado-moda-form.png)
 
 | Campo | Descripción |
 |-------|-------------|
