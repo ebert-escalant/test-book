@@ -9,15 +9,6 @@ Respuestas a las consultas más comunes sobre el sistema.
 ## Acceso al Sistema
 
 <details>
-<summary><strong>¿Cómo recupero mi contraseña?</strong></summary>
-
-1. En la pantalla de login, haga clic en "¿Olvidaste tu contraseña?"
-2. Ingrese su correo electrónico
-3. Siga las instrucciones del correo recibido
-
-</details>
-
-<details>
 <summary><strong>¿Por qué no veo algunos menús?</strong></summary>
 
 El acceso a módulos depende de los permisos asignados a su usuario. Contacte al administrador del sistema para solicitar acceso.

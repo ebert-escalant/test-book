@@ -479,24 +479,11 @@ Una vez que un código está "Procesado" en SAP, no se puede eliminar ni modific
 
 ## Búsqueda y Filtros
 
-### Búsqueda en Lista de Procesos
-
-**Campos de búsqueda:**
-- **Filtro general**: Busca por código de proceso, comentario o descripción
-- **Fechas**: Filtra por rango de fechas de creación
-- **Estado**: Filtra por estado (Abierto/Cerrado)
-
-**Pasos:**
-1. Ingrese el texto en el campo de búsqueda
-2. Ajuste las fechas si es necesario
-3. Seleccione el estado (opcional)
-4. Haga clic en **"Buscar"**
-
 ### Búsqueda en Códigos Internos
 
 Dentro de un proceso expandido:
 1. Use el campo de búsqueda superior
-2. Escriba código interno o descripción
+2. Escriba código SAP, descripción o grupo de artículo
 3. La tabla se filtrará automáticamente
 
 ## Características Especiales
@@ -535,7 +522,7 @@ El sistema utiliza valores predeterminados configurados en los catálogos maestr
 **Grupo de Artículo:**
 - El Nivel 1 por defecto es "R"
 - Los niveles 2 y 3 se filtran automáticamente
-- Los niveles 4 y 5 tienen búsqueda dinámica con debounce
+- Los niveles 4 y 5 tienen búsqueda dinámica con debounce (tiempo de espera)
 - Al seleccionar un nivel, se actualiza automáticamente el código completo
 
 **Tallero:**

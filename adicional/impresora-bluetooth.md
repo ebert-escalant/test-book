@@ -23,7 +23,7 @@ Este paso es **obligatorio** para usar la impresión Bluetooth.
 4. Busque la opción y cámbiela a **"Enabled"**
 5. Haga clic en **"Relaunch"** para reiniciar el navegador
 
-<figure><img src="../.gitbook/assets/chrome-bluetooth.png" alt=""><figcaption></figcaption></figure>
+![Configuración de chrome](../.gitbook/assets/chrome-bluetooth.png)
 
 ## Conectar Impresora
 
@@ -38,6 +38,7 @@ Este paso es **obligatorio** para usar la impresión Bluetooth.
 {% hint style="success" %}
 La impresora quedará guardada para futuras impresiones.
 {% endhint %}
+<!-- -->
 
 ## Solución de Problemas
 
