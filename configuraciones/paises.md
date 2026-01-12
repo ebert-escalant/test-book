@@ -31,14 +31,9 @@ La sincronización descarga los datos actualizados desde SAP al sistema. Este ca
 |-------|-------------|
 | Código | Código del país |
 | Descripción | Nombre del país |
-| Valor por defecto | Indica si es el país predeterminado |
 
 {% hint style="info" %}
 La sincronización descarga los datos actualizados desde SAP al sistema.
-{% endhint %}
-
-{% hint style="success" %}
-El valor por defecto se seleccionará automáticamente en los formularios de creación.
 {% endhint %}
 
 ![Países](../.gitbook/assets/paises.png)
