@@ -27,15 +27,7 @@ La sincronización descarga los datos actualizados desde SAP al sistema, incluye
 
 <!-- -->
 
-### Editar
-1. Localice el registro en la tabla
-2. Haga clic en el ícono de edición (✏️)
-3. Modifique los campos necesarios
-4. Haga clic en **"Guardar"**
-
-{% hint style="warning" %}
-**Restricción:** Solo se pueden editar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden modificar.
-{% endhint %}
+### Campos
 
 | Campo | Descripción |
 |-------|-------------|
@@ -45,10 +37,6 @@ La sincronización descarga los datos actualizados desde SAP al sistema, incluye
 
 {% hint style="info" %}
 La sincronización descarga los datos actualizados desde SAP al sistema.
-{% endhint %}
-
-{% hint style="success" %}
-El valor por defecto se seleccionará automáticamente en los formularios de creación.
 {% endhint %}
 
 ![Tallero y Tallas](../.gitbook/assets/tallero-tallas.png)
