@@ -23,6 +23,7 @@ Gestiona la jerarquía de productos organizada en 5 niveles.
 La sincronización descarga los datos actualizados desde SAP al sistema.
 {% endhint %}
 
+<!-- -->
 
 ### Crear Nuevo
 1. Haga clic en **"Nuevo"**
@@ -38,6 +39,7 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 Solo se pueden editar los registros creados manualmente.
 {% endhint %}
 
+<!-- -->
 
 ### Eliminar
 1. Haga clic en el ícono de eliminar (🗑️)
@@ -47,6 +49,7 @@ Solo se pueden editar los registros creados manualmente.
 Solo se pueden eliminar los registros creados manualmente.
 {% endhint %}
 
+<!-- -->
 
 ## Formulario de Creación
 
