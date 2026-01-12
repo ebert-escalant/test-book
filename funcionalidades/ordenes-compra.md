@@ -12,7 +12,7 @@ Gestión de pedidos vinculados con SAP y acceso a la generación de códigos.
 
 ***
 
-#### Listado de Órdenes
+## Listado de Órdenes
 
 Al acceder verá la tabla con todas las órdenes de compra registradas.
 
@@ -30,7 +30,7 @@ Al acceder verá la tabla con todas las órdenes de compra registradas.
 
 ***
 
-#### Buscar Órdenes
+## Buscar Órdenes
 
 1. Localice el campo de búsqueda en la parte superior
 2. Escriba el número de pedido, embarque o proveedor
@@ -38,7 +38,7 @@ Al acceder verá la tabla con todas las órdenes de compra registradas.
 
 ***
 
-#### Crear Nueva Orden
+## Crear Nueva Orden
 
 1. Haga clic en el botón **"Nuevo"**
 2. Complete el formulario "Vincular Orden de compra de SAP"
@@ -61,7 +61,7 @@ Todos los campos marcados con asterisco (*) son obligatorios.
 
 ***
 
-#### Editar Orden
+## Editar Orden
 
 1. Localice la orden en la tabla
 2. Haga clic en el ícono **Editar** (✏️)
@@ -70,7 +70,7 @@ Todos los campos marcados con asterisco (*) son obligatorios.
 
 ***
 
-#### Eliminar Orden
+## Eliminar Orden
 
 1. Haga clic en el ícono **Eliminar** (🗑️)
 2. Confirme la eliminación en el mensaje emergente
@@ -81,7 +81,7 @@ Esta acción no se puede deshacer. Asegúrese antes de eliminar.
 
 ***
 
-#### Acceder a Generar Códigos
+## Acceder a Generar Códigos
 
 {% hint style="info" %}
 La generación de códigos se realiza **desde dentro** de cada orden de compra.

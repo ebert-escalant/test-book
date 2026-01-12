@@ -8,7 +8,7 @@ Configuración para impresión de códigos de barras mediante Bluetooth.
 
 ***
 
-#### Habilitar Bluetooth en Chrome
+## Habilitar Bluetooth en Chrome
 
 {% hint style="warning" %}
 Este paso es **obligatorio** para usar la impresión Bluetooth.
@@ -27,7 +27,7 @@ Este paso es **obligatorio** para usar la impresión Bluetooth.
 
 ***
 
-#### Conectar Impresora
+## Conectar Impresora
 
 1. Encienda su impresora de códigos de barras Bluetooth
 2. Asegúrese de que esté en modo de emparejamiento
@@ -43,7 +43,7 @@ La impresora quedará guardada para futuras impresiones.
 
 ***
 
-#### Solución de Problemas
+## Solución de Problemas
 
 **No aparece el dispositivo**
 

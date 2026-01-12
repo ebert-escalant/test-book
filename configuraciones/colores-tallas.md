@@ -8,7 +8,7 @@ Configuración de colores, talleros y relaciones con grupos de artículos.
 
 ***
 
-#### Colores
+## Colores
 
 Catálogo de colores disponibles para los productos.
 
@@ -31,7 +31,7 @@ Catálogo de colores disponibles para los productos.
 
 ***
 
-#### Tallero y Tallas
+## Tallero y Tallas
 
 Gestión de talleros (conjuntos de tallas) y sus tallas asociadas.
 
@@ -53,7 +53,7 @@ Cada tallero agrupa un conjunto de tallas específico. Por ejemplo: XS, S, M, L,
 
 ***
 
-#### Grupo Artículo y Tallero
+## Grupo Artículo y Tallero
 
 Configuración de la relación entre grupos de artículos y talleros.
 

@@ -12,7 +12,7 @@ Control de inventario de prendas organizadas por cajas.
 
 ***
 
-#### Listado de Órdenes
+## Listado de Órdenes
 
 Muestra las órdenes de compra disponibles para contabilización.
 
@@ -28,7 +28,7 @@ Muestra las órdenes de compra disponibles para contabilización.
 
 ***
 
-#### Buscar Orden
+## Buscar Orden
 
 1. Use el campo de búsqueda en la parte superior
 2. Escriba número de pedido, embarque o proveedor
@@ -36,7 +36,7 @@ Muestra las órdenes de compra disponibles para contabilización.
 
 ***
 
-#### Realizar Contabilización
+## Realizar Contabilización
 
 1. Localice la orden deseada
 2. Haga clic en **"Contabilizar"**
@@ -69,7 +69,7 @@ El sistema actualizará automáticamente el inventario al guardar.
 
 ***
 
-#### Verificar Contabilización
+## Verificar Contabilización
 
 Una vez guardada la contabilización:
 

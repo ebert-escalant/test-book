@@ -8,7 +8,7 @@ Información de contacto y guía para reportar problemas.
 
 ***
 
-#### Canales de Atención
+## Canales de Atención
 
 | Canal | Información |
 |-------|-------------|
@@ -22,7 +22,7 @@ Para una atención más rápida, utilice el correo electrónico detallando el pr
 
 ***
 
-#### Al Reportar un Problema
+## Al Reportar un Problema
 
 Para una resolución más rápida, incluya la siguiente información:
 
@@ -38,7 +38,7 @@ Para una resolución más rápida, incluya la siguiente información:
 
 ***
 
-#### Ejemplo de Reporte
+## Ejemplo de Reporte
 
 ```
 Asunto: Error al generar códigos

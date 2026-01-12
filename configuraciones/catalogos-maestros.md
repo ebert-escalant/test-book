@@ -12,7 +12,7 @@ Los catálogos maestros contienen los datos base que alimentan los formularios d
 
 ***
 
-#### Listado de Catálogos Disponibles
+## Listado de Catálogos Disponibles
 
 <figure><img src="../.gitbook/assets/config-menu.png" alt=""><figcaption></figcaption></figure>
 
@@ -35,7 +35,7 @@ Los catálogos maestros contienen los datos base que alimentan los formularios d
 
 ***
 
-#### Operaciones Comunes
+## Operaciones Comunes
 
 Todos los catálogos comparten estas operaciones básicas:
 
@@ -67,7 +67,7 @@ El valor por defecto se seleccionará automáticamente en los formularios de cre
 
 ***
 
-#### Catálogos Especiales
+## Catálogos Especiales
 
 **Colores y Tallas**
 

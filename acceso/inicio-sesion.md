@@ -4,8 +4,6 @@ icon: bolt
 
 # Acceso al Sistema
 
-#### Acceso al Sistema
-
 **URL del Sistema**: \[URL proporcionada por el administrador]
 
 1. Abra su navegador web preferido (Chrome, Firefox, Safari, Edge)
@@ -18,7 +16,7 @@ icon: bolt
 Pantalla de inicio de sesión
 {% endhint %}
 
-#### Iniciar Sesión
+## Iniciar Sesión
 
 1. Ingrese su **Usuario** en el campo correspondiente
 2. Ingrese su **Contraseña**
@@ -29,7 +27,7 @@ Pantalla de inicio de sesión
 Si las credenciales son incorrectas, verá el mensaje: "Usuario o contraseña incorrecto"
 {% endhint %}
 
-#### Recuperar Contraseña
+## Recuperar Contraseña
 
 Si olvidó su contraseña:
 
@@ -43,7 +41,7 @@ Si olvidó su contraseña:
 El enlace de recuperación expira en 24 horas.
 {% endhint %}
 
-#### Requisitos del Sistema
+## Requisitos del Sistema
 
 **Navegadores compatibles:**
 
@@ -63,7 +61,7 @@ Se recomienda **Google Chrome** para mejor compatibilidad con impresión Bluetoo
 * Móvil: Android 8.0+, iOS 12+
 * Conexión a Internet estable
 
-#### Instalación como Aplicación (PWA)
+## Instalación como Aplicación (PWA)
 
 El sistema puede instalarse como aplicación en su dispositivo.
 

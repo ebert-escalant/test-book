@@ -8,7 +8,7 @@ Respuestas a las consultas más comunes sobre el sistema.
 
 ***
 
-#### Acceso al Sistema
+## Acceso al Sistema
 
 <details>
 <summary><strong>¿Cómo recupero mi contraseña?</strong></summary>
@@ -28,7 +28,7 @@ El acceso a módulos depende de los permisos asignados a su usuario. Contacte al
 
 ***
 
-#### Funcionalidad
+## Funcionalidad
 
 <details>
 <summary><strong>¿Cómo accedo a generar códigos?</strong></summary>
@@ -60,7 +60,7 @@ No, el sistema requiere conexión a Internet activa para todas las operaciones.
 
 ***
 
-#### Impresión
+## Impresión
 
 <details>
 <summary><strong>¿Cómo conecto mi impresora Bluetooth?</strong></summary>
@@ -84,7 +84,7 @@ Verifique:
 
 ***
 
-#### Aplicación PWA
+## Aplicación PWA
 
 <details>
 <summary><strong>¿Cómo desinstalo la aplicación PWA?</strong></summary>
