@@ -31,7 +31,7 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 2. Haga clic en el ícono de edición (✏️)
 3. Modifique el campo disponible
 
-![Categoría de Valorización](../.gitbook/assets/categoria-valorizacion-form.png)
+![Formulario Categoría de Valorización](../.gitbook/assets/categoria-valorizacion-form.png)
 
 | Campo | Descripción |
 |-------|-------------|
