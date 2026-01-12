@@ -27,32 +27,40 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 
 <!-- -->
 
+### Crear Nuevo
+1. Haga clic en **"Nuevo"**
+2. Complete el formulario
+3. Haga clic en **"Guardar"**
+
 ### Editar
-1. Localice el registro en la tabla
-2. Haga clic en el ícono de edición (✏️)
-3. Modifique los campos necesarios
-4. Haga clic en **"Guardar"**
+1. Haga clic en el ícono de edición (✏️)
+2. Modifique los campos necesarios
+3. Haga clic en **"Actualizar"**
 
 {% hint style="warning" %}
-**Restricción:** Solo se pueden editar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden modificar. Esta configuración determina qué tallero se muestra automáticamente al generar códigos para un grupo de artículo específico.
+Solo se pueden editar los registros creados manualmente.
 {% endhint %}
+
+<!-- -->
+
+## Formulario de Creación
+
+![Formulario Grupo Artículo y Tallero](../.gitbook/assets/grupo-articulo-tallero-form.png)
+
+## Campos
 
 | Campo | Descripción |
 |-------|-------------|
-| Grupo artículo nivel 4 | Línea del producto |
-| Grupo artículo nivel 5 | Sublínea del producto |
-| Tallero asociado | Tallero vinculado |
+| Grupo artículo nivel 5 | Grupo de artículo de nivel 5 (Linea) |
+| Código SAP Tallero | Código del grupo de artículo asociado proveniente de SAP (se asigna automáticamente al seleccionar el grupo de artículo) |
+| Tallero | Tallero a asociar con el grupo de artículo |
+| Tallas | Lista de tallas disponibles en el tallero seleccionado (solo visualización) |
+| Establecer como predeterminado | Marque esta opción si desea que este tallero sea el predeterminado para el grupo de artículo |
 
-**Crear Relación**
-
-1. Haga clic en **"Nuevo"**
-2. Seleccione el Grupo artículo nivel 4
-3. Seleccione el Grupo artículo nivel 5
-4. Seleccione el Tallero correspondiente
-5. Haga clic en **"Guardar"**
-
-{% hint style="warning" %}
+{% hint style="info" %}
 Esta configuración determina qué tallero se muestra automáticamente al generar códigos para un grupo de artículo específico.
 {% endhint %}
+
+<!-- -->
 
 ![Grupo Artículo y Tallero](../.gitbook/assets/grupo-articulo-tallero.png)

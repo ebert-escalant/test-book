@@ -60,7 +60,7 @@ Solo se pueden eliminar los registros creados manualmente.
 
 | Campo | Descripción |
 |-------|-------------|
-| Niveles | Seleccione la jerarquía de 5 niveles (Categoría → Subcategoría → División → Línea → Sublínea) |
+| Niveles | Seleccione la jerarquía de 5 niveles |
 | Código cubo | Identificador único del artículo |
 | Largo | Dimensión de largo |
 | Ancho | Dimensión de ancho |
@@ -72,17 +72,3 @@ Solo se pueden eliminar los registros creados manualmente.
 | UM Peso | Unidad de medida para peso |
 
 ![Grupo de artículos](../.gitbook/assets/grupo-articulos.png)
-
-## Jerarquía de Niveles
-
-La estructura jerárquica de clasificación de productos tiene 5 niveles:
-
-* **Nivel 1**: Categoría principal
-* **Nivel 2**: Subcategoría
-* **Nivel 3**: División
-* **Nivel 4**: Línea
-* **Nivel 5**: Sublínea
-
-{% hint style="info" %}
-Los niveles se usan en la generación de códigos para clasificar los productos.
-{% endhint %}
