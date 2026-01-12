@@ -364,15 +364,15 @@ Esta acción eliminará permanentemente el proceso y todos sus productos. Solo e
 
 Estas acciones se realizan desde cada fila de código interno individual en la tabla expandida:
 
-#### Imprimir Códigos del Producto
+#### Imprimir Todas las Variantes
 
 1. Haga clic en el ícono **Imprimir** (🖨️) del código interno
 2. Se abrirá el modal de impresión con todas las variantes del producto
-3. Configure las opciones (Bluetooth o PDF)
-4. Imprima todas las variantes del código
+3. Configure el número de copias y seleccione la impresora Bluetooth
+4. Haga clic en **"Imprimir"**
 
 {% hint style="info" %}
-Esta opción imprime todas las variantes del código interno seleccionado de una sola vez.
+Esta opción imprime todas las variantes del código interno de una sola vez. Solo está disponible si tiene al menos una variante creada.
 {% endhint %}
 
 <!-- -->
@@ -383,7 +383,6 @@ Esta opción imprime todas las variantes del código interno seleccionado de una
 2. Se abrirá un modal con el formulario de edición (Paso 2)
 3. Modifique los campos necesarios (Marca, Descripción, Precio, Grupo de artículo, Unidad de medida)
 4. Haga clic en **"Guardar cambios"**
-5. El sistema actualizará la información y refrescará la tabla
 
 {% hint style="warning" %}
 **Restricciones:** Solo se pueden editar códigos con estado "Sin procesar", debe tener al menos una variante creada (`quantityVariants > 0`) y no puede estar "Procesado" en SAP.
@@ -391,122 +390,37 @@ Esta opción imprime todas las variantes del código interno seleccionado de una
 
 <!-- -->
 
-#### Gestionar Variantes del Código (Eliminar Variantes)
+#### Ver Variantes
+
+1. Haga clic en el ícono **Ver** (👁️) del código interno
+2. Se abrirá un modal mostrando todas las variantes (color + talla) del código
+
+![Modal de variantes](../.gitbook/assets/codigo-variante-ver.png)
+
+El modal muestra el código interno, descripción y una tabla con: Código SAP, Código Interno, Color y Talla de cada variante.
+
+#### Gestionar Variantes (Eliminar)
 
 1. Haga clic en el ícono **Gestionar variantes** (🗑️ rojo con escoba) del código interno
-2. Se abrirá un modal mostrando todas las variantes del código
-3. Puede eliminar variantes individuales desde la tabla de variantes
-4. Use el botón **Cerrar** cuando termine
+2. Se abrirá el mismo modal de variantes pero en modo edición
+3. Aparecerá la columna **Acciones** con el botón eliminar (🗑️) en cada variante
+4. Haga clic en **Eliminar** en la variante deseada y confirme
+
+![Modal de variantes](../.gitbook/assets/codigo-variante-gestionar.png)
 
 {% hint style="warning" %}
-**Restricciones:** Solo disponible para códigos con estado "Sin procesar", debe tener al menos una variante creada (`quantityVariants > 0`) y las variantes "Procesado" en SAP no pueden eliminarse.
+**Restricciones:** Solo disponible para códigos "Sin procesar" con al menos una variante. Las variantes "Procesado" en SAP no pueden eliminarse.
 {% endhint %}
 
 <!-- -->
-
-**Uso típico:**
-- Eliminar variantes incorrectas antes de sincronizar con SAP
-- Corregir errores en colores o tallas seleccionadas
-- Limpiar variantes de prueba
 
 #### Eliminar Código Interno Completo
 
 1. Haga clic en el ícono **Eliminar** (🗑️) del código interno
-2. Aparecerá un mensaje de confirmación
-3. Haga clic en **"Sí"** para confirmar
-4. El código y todas sus variantes se eliminarán permanentemente
+2. Confirme la acción en el mensaje emergente
 
 {% hint style="danger" %}
 **Restricción crítica:** Solo se pueden eliminar códigos con estado "Sin procesar". Esta acción eliminará el código interno y TODAS sus variantes asociadas. Esta operación no se puede deshacer.
-{% endhint %}
-
-<!-- -->
-
-#### Ver Variantes
-
-Para ver las variantes individuales de un código interno:
-
-1. Haga clic en el ícono **Ver** (👁️) del código interno en la columna Acciones
-2. Se desplegará un modal mostrando la tabla de variantes (combinaciones de color + talla) de ese código específico
-
-![Modal de variantes](../.gitbook/assets/generar-codigo-variantes.png)
-
-**Estructura del Modal:**
-
-**Campos de información del código (parte superior):**
-- **Código Interno**: Código del producto (deshabilitado)
-- **Descripción**: Descripción del producto (deshabilitado)
-
-**Columnas de la tabla de variantes:**
-
-| Columna | Descripción |
-|---------|-------------|
-| **Código SAP** | Código único asignado por SAP después de sincronizar (vacío si está "Sin procesar") |
-| **Código Interno** | Código interno de la variante específica |
-| **Color** | Descripción del color de la variante |
-| **Talla** | Talla específica mostrada en un chip |
-
-{% hint style="info" %}
-Cada fila representa una variante única. Por ejemplo: si tiene 2 colores y 5 tallas, verá 10 filas (2 × 5 = 10 variantes).
-{% endhint %}
-
-<!-- -->
-
-**Desde este modal puede:**
-- Ver todas las variantes del código interno
-- Imprimir códigos de barras (botón en la barra superior)
-- Cerrar el modal cuando termine de consultar
-
-#### Gestionar Variantes (Eliminar Variantes)
-
-Para eliminar variantes individuales de un código interno:
-
-1. Haga clic en el ícono **Gestionar variantes** (🗑️ rojo con escoba) del código interno
-2. Se abrirá un modal en "modo edición" mostrando todas las variantes del código
-3. En la tabla de variantes aparecerá la columna **Acciones** con el ícono eliminar (🗑️)
-4. Haga clic en el ícono **Eliminar** (🗑️) de la variante específica que desea eliminar
-5. Aparecerá un mensaje de confirmación
-6. Haga clic en **"Sí"** para confirmar la eliminación
-7. La variante se eliminará permanentemente
-8. Use el botón **Cerrar** cuando termine
-
-{% hint style="warning" %}
-**Restricciones:** Solo disponible para códigos con estado "Sin procesar", debe tener al menos una variante creada (`quantityVariants > 0`) y las variantes "Procesado" en SAP no pueden eliminarse.
-{% endhint %}
-
-<!-- -->
-
-{% hint style="danger" %}
-**Importante:** La columna de Acciones solo es visible si abrió el modal en "modo edición" usando el ícono de gestionar variantes. Si abre el modal con el ícono Ver (👁️), no podrá eliminar variantes, solo consultarlas.
-{% endhint %}
-
-<!-- -->
-
-**Uso típico:**
-- Eliminar variantes incorrectas antes de sincronizar con SAP
-- Corregir errores en colores o tallas seleccionadas
-- Limpiar variantes de prueba
-
-#### Imprimir Variantes del Código
-
-Para imprimir todas las variantes de un código interno:
-
-1. En la tabla de códigos internos, haga clic en el ícono **Imprimir** (🖨️) del código
-2. Se abrirá el modal de impresión de códigos de barras
-3. Configure las opciones:
-   - **Número de copias**: Cantidad de etiquetas por variante
-   - **Impresora**: Seleccione la impresora Bluetooth configurada
-4. Haga clic en **"Imprimir"**
-5. El sistema imprimirá todas las variantes del código
-
-{% hint style="info" %}
-Esta opción imprime todas las variantes del código interno de una sola vez. Solo está disponible si el código tiene al menos una variante (`quantityVariants > 0`).
-{% endhint %}
-
-<!-- -->
-
-{% hint style="tip" %}
-Después de imprimir exitosamente por Bluetooth, el sistema muestra un mensaje de confirmación, cierra el modal y actualiza automáticamente la tabla.
 {% endhint %}
 
 <!-- -->
