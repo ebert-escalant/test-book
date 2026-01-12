@@ -342,7 +342,9 @@ Esta opción imprime todas las variantes del código interno seleccionado de una
 5. El sistema actualizará la información y refrescará la tabla
 
 {% hint style="warning" %}
-## **Restricciones:**
+
+**Restricciones:**
+
 - Solo se pueden editar códigos con estado "Sin procesar"
 - Debe tener al menos una variante creada (`quantityVariants > 0`)
 - No se puede editar si ya está "Procesado" en SAP
