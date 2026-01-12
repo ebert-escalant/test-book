@@ -1,8 +1,14 @@
+---
+icon: print
+---
+
 # Impresora Bluetooth
 
 Configuración para impresión de códigos de barras mediante Bluetooth.
 
-## Habilitar Bluetooth en Chrome
+***
+
+#### Habilitar Bluetooth en Chrome
 
 {% hint style="warning" %}
 Este paso es **obligatorio** para usar la impresión Bluetooth.
@@ -17,9 +23,11 @@ Este paso es **obligatorio** para usar la impresión Bluetooth.
 4. Busque la opción y cámbiela a **"Enabled"**
 5. Haga clic en **"Relaunch"** para reiniciar el navegador
 
-![Configuración Chrome](../.gitbook/assets/chrome-bluetooth.png)
+<figure><img src="../.gitbook/assets/chrome-bluetooth.png" alt=""><figcaption></figcaption></figure>
 
-## Conectar Impresora
+***
+
+#### Conectar Impresora
 
 1. Encienda su impresora de códigos de barras Bluetooth
 2. Asegúrese de que esté en modo de emparejamiento
@@ -33,23 +41,35 @@ Este paso es **obligatorio** para usar la impresión Bluetooth.
 La impresora quedará guardada para futuras impresiones.
 {% endhint %}
 
-## Solución de Problemas
+***
 
-### No aparece el dispositivo
+#### Solución de Problemas
 
-* Verifique que la impresora esté encendida
-* Asegúrese de que esté en modo de emparejamiento
-* Reinicie el Bluetooth de la impresora
-* Actualice la lista de dispositivos
+**No aparece el dispositivo**
 
-### Error de conexión
+| Problema | Solución |
+|----------|----------|
+| Impresora apagada | Verifique que esté encendida |
+| Modo incorrecto | Active modo de emparejamiento |
+| Bluetooth bloqueado | Reinicie el Bluetooth de la impresora |
+| Lista desactualizada | Actualice la lista de dispositivos |
 
-* Verifique que habilitó Web Bluetooth en Chrome
-* Reinicie el navegador
-* Intente desemparejar y emparejar nuevamente
+**Error de conexión**
 
-### No imprime
+| Problema | Solución |
+|----------|----------|
+| Web Bluetooth deshabilitado | Habilite la opción en chrome://flags |
+| Cache del navegador | Reinicie el navegador completamente |
+| Emparejamiento corrupto | Desempareje y vuelva a emparejar |
 
-* Verifique que la impresora tenga papel/etiquetas
-* Revise el nivel de batería
-* Verifique la conexión Bluetooth
+**No imprime**
+
+| Problema | Solución |
+|----------|----------|
+| Sin papel | Verifique que tenga papel/etiquetas |
+| Batería baja | Revise el nivel de batería |
+| Desconectado | Verifique la conexión Bluetooth |
+
+{% hint style="danger" %}
+Si los problemas persisten, contacte al equipo de soporte técnico.
+{% endhint %}

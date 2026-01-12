@@ -1,6 +1,14 @@
+---
+icon: headset
+---
+
 # Soporte Técnico
 
-## Canales de Atención
+Información de contacto y guía para reportar problemas.
+
+***
+
+#### Canales de Atención
 
 | Canal | Información |
 |-------|-------------|
@@ -8,32 +16,29 @@
 | **Teléfono** | [Número de contacto] |
 | **Horario** | Lunes a Viernes, 8:00 - 18:00 |
 
-## Al Reportar un Problema
+{% hint style="info" %}
+Para una atención más rápida, utilice el correo electrónico detallando el problema.
+{% endhint %}
+
+***
+
+#### Al Reportar un Problema
 
 Para una resolución más rápida, incluya la siguiente información:
 
-### Información Requerida
+**Información Requerida**
 
-1. **Descripción del problema**
-   * ¿Qué intentaba hacer?
-   * ¿Qué sucedió?
-   * ¿Qué esperaba que sucediera?
+| Dato | Descripción |
+|------|-------------|
+| Descripción del problema | ¿Qué intentaba hacer? ¿Qué sucedió? ¿Qué esperaba? |
+| Pasos para reproducir | Detalle paso a paso cómo llegar al error |
+| Capturas de pantalla | Imágenes del error si es posible |
+| Información técnica | Navegador, versión, dispositivo, sistema operativo |
+| Fecha y hora | Cuándo ocurrió el problema |
 
-2. **Pasos para reproducir**
-   * Detalle paso a paso cómo llegar al error
+***
 
-3. **Capturas de pantalla**
-   * Incluya imágenes del error si es posible
-
-4. **Información técnica**
-   * Navegador y versión (ej: Chrome 120)
-   * Dispositivo (PC, móvil, tablet)
-   * Sistema operativo
-
-5. **Fecha y hora**
-   * Cuándo ocurrió el problema
-
-## Ejemplo de Reporte
+#### Ejemplo de Reporte
 
 ```
 Asunto: Error al generar códigos
@@ -54,6 +59,6 @@ Dispositivo: PC Windows 11
 Fecha: 12/01/2026, 10:30 AM
 ```
 
-{% hint style="info" %}
+{% hint style="success" %}
 Los reportes bien documentados se resuelven más rápido.
 {% endhint %}

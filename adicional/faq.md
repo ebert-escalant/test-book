@@ -1,6 +1,14 @@
+---
+icon: circle-question
+---
+
 # Preguntas Frecuentes
 
-## Acceso
+Respuestas a las consultas más comunes sobre el sistema.
+
+***
+
+#### Acceso al Sistema
 
 <details>
 <summary><strong>¿Cómo recupero mi contraseña?</strong></summary>
@@ -18,7 +26,9 @@ El acceso a módulos depende de los permisos asignados a su usuario. Contacte al
 
 </details>
 
-## Funcionalidad
+***
+
+#### Funcionalidad
 
 <details>
 <summary><strong>¿Cómo accedo a generar códigos?</strong></summary>
@@ -34,8 +44,10 @@ La generación de códigos está **dentro de cada orden de compra**:
 <details>
 <summary><strong>¿Qué significa el estado "Abierto"?</strong></summary>
 
-* **Abierto:** Puede modificarse
-* **Cerrado:** Ya fue sincronizado con SAP y no puede editarse
+| Estado | Descripción |
+|--------|-------------|
+| **Abierto** | Puede modificarse |
+| **Cerrado** | Ya fue sincronizado con SAP y no puede editarse |
 
 </details>
 
@@ -46,7 +58,9 @@ No, el sistema requiere conexión a Internet activa para todas las operaciones.
 
 </details>
 
-## Impresión
+***
+
+#### Impresión
 
 <details>
 <summary><strong>¿Cómo conecto mi impresora Bluetooth?</strong></summary>
@@ -68,18 +82,21 @@ Verifique:
 
 </details>
 
-## Aplicación
+***
+
+#### Aplicación PWA
 
 <details>
 <summary><strong>¿Cómo desinstalo la aplicación PWA?</strong></summary>
 
-**Windows:**
-* Abra la app → menú (···) → "Desinstalar"
-
-**Android:**
-* Mantenga presionado el ícono → "Desinstalar"
-
-**iOS:**
-* Mantenga presionado el ícono → "Eliminar app"
+| Sistema | Pasos |
+|---------|-------|
+| **Windows** | Abra la app → menú (···) → "Desinstalar" |
+| **Android** | Mantenga presionado el ícono → "Desinstalar" |
+| **iOS** | Mantenga presionado el ícono → "Eliminar app" |
 
 </details>
+
+{% hint style="info" %}
+¿No encontró su pregunta? Visite la sección [Soporte](soporte.md) para contactar al equipo técnico.
+{% endhint %}

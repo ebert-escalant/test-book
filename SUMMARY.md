@@ -2,12 +2,10 @@
 
 * [Bienvenido](README.md)
 
-## Acceso al Sistema
+## Inicio Rápido
 
-* [Requisitos del Sistema](acceso/requisitos.md)
-* [Instalación PWA](acceso/instalacion-pwa.md)
-* [Inicio de Sesión](acceso/inicio-sesion.md)
-* [Pantalla Principal](acceso/dashboard.md)
+* [Acceso al Sistema](acceso/inicio-sesion.md)
+* [Pantalla Principal (Dashboard)](acceso/dashboard.md)
 
 ## Funcionalidades Principales
 
@@ -18,9 +16,6 @@
 ## Configuraciones
 
 * [Catálogos Maestros](configuraciones/catalogos-maestros.md)
-* [Grupo de Artículos](configuraciones/grupo-articulos.md)
-* [Colores y Tallas](configuraciones/colores-tallas.md)
-* [Proveedores y Paquetes](configuraciones/proveedores-paquetes.md)
 
 ## Adicional
 
