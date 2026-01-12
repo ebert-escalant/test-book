@@ -14,6 +14,8 @@ Catálogo de colores disponibles para los productos.
 **Ruta:** Configuraciones → Colores
 {% endhint %}
 
+<!-- -->
+
 <figure><img src="../.gitbook/assets/colores.png" alt=""><figcaption></figcaption></figure>
 
 | Campo | Descripción |
@@ -27,6 +29,8 @@ Catálogo de colores disponibles para los productos.
 * Sincronizar con SAP
 * Establecer valor por defecto
 
+<!-- -->
+
 ## Tallero y Tallas
 
 Gestión de talleros (conjuntos de tallas) y sus tallas asociadas.
@@ -34,6 +38,8 @@ Gestión de talleros (conjuntos de tallas) y sus tallas asociadas.
 {% hint style="info" %}
 **Ruta:** Configuraciones → Tallero y tallas
 {% endhint %}
+
+<!-- -->
 
 <figure><img src="../.gitbook/assets/talleros.png" alt=""><figcaption></figcaption></figure>
 
@@ -47,6 +53,8 @@ Gestión de talleros (conjuntos de tallas) y sus tallas asociadas.
 Cada tallero agrupa un conjunto de tallas específico. Por ejemplo: XS, S, M, L, XL para adultos o 2, 4, 6, 8 para niños.
 {% endhint %}
 
+<!-- -->
+
 ## Grupo Artículo y Tallero
 
 Configuración de la relación entre grupos de artículos y talleros.
@@ -54,6 +62,8 @@ Configuración de la relación entre grupos de artículos y talleros.
 {% hint style="info" %}
 **Ruta:** Configuraciones → Grupo Artículo y Tallero
 {% endhint %}
+
+<!-- -->
 
 | Campo | Descripción |
 |-------|-------------|

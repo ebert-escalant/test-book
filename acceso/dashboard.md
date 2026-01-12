@@ -10,6 +10,8 @@ Al iniciar sesión accederá al Dashboard, la página principal del sistema.
 Vista del Dashboard con mensaje de bienvenida
 {% endhint %}
 
+<!-- -->
+
 ## Menú de Navegación
 
 El menú lateral izquierdo contiene las siguientes opciones:

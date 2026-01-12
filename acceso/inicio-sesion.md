@@ -16,6 +16,8 @@ icon: bolt
 Pantalla de inicio de sesión
 {% endhint %}
 
+<!-- -->
+
 ## Iniciar Sesión
 
 1. Ingrese su **Usuario** en el campo correspondiente
@@ -26,6 +28,8 @@ Pantalla de inicio de sesión
 {% hint style="danger" %}
 Si las credenciales son incorrectas, verá el mensaje: "Usuario o contraseña incorrecto"
 {% endhint %}
+
+<!-- -->
 
 ## Recuperar Contraseña
 
@@ -40,6 +44,8 @@ Si olvidó su contraseña:
 {% hint style="info" %}
 El enlace de recuperación expira en 24 horas.
 {% endhint %}
+
+<!-- -->
 
 ## Requisitos del Sistema
 

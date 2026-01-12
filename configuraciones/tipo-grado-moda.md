@@ -24,6 +24,8 @@ Catálogo de tipos de grado de moda para los productos.
 La sincronización descarga los datos actualizados desde SAP al sistema.
 {% endhint %}
 
+<!-- -->
+
 ### Establecer Valor por Defecto
 1. Localice el registro deseado en la tabla
 2. Haga clic en el ícono **"Aplicar por defecto"** (📋)

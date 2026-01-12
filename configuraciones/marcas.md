@@ -24,6 +24,8 @@ Catálogo de marcas comerciales disponibles para los productos.
 La sincronización descarga los datos actualizados desde SAP al sistema. Este catálogo es de solo lectura y se administra desde SAP.
 {% endhint %}
 
+<!-- -->
+
 | Campo | Descripción |
 |-------|-------------|
 | Código | Código de la marca |

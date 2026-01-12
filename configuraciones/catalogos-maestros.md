@@ -10,6 +10,8 @@ Los catálogos maestros contienen los datos base que alimentan los formularios d
 **Ruta:** Menú → Configuraciones → [Seleccionar opción]
 {% endhint %}
 
+<!-- -->
+
 ## Listado de Catálogos Disponibles
 
 <figure><img src="../.gitbook/assets/config-menu.png" alt=""><figcaption></figcaption></figure>

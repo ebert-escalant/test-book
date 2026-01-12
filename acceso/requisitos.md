@@ -13,6 +13,8 @@
 Se recomienda **Google Chrome** para mejor compatibilidad con impresión Bluetooth.
 {% endhint %}
 
+<!-- -->
+
 ## Dispositivos
 
 **Computadoras:**

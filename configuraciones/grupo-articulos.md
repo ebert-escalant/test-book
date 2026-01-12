@@ -55,6 +55,8 @@ Solo se pueden eliminar los registros creados manualmente.
 
 ![Formuario de grupo de articulos](../.gitbook/assets/grupo-articulos-form.png)
 
+## Campos
+
 | Campo | Descripción |
 |-------|-------------|
 | Niveles | Seleccione la jerarquía de 5 niveles (Categoría → Subcategoría → División → Línea → Sublínea) |
@@ -67,16 +69,6 @@ Solo se pueden eliminar los registros creados manualmente.
 | UM Volumen | Unidad de medida para volumen |
 | Peso | Peso del artículo |
 | UM Peso | Unidad de medida para peso |
-
-## Campos
-
-| Campo | Descripción |
-|-------|-------------|
-| Nivel 1 | Categoría principal |
-| Nivel 2 | Subcategoría |
-| Nivel 3 | División |
-| Nivel 4 | Línea |
-| Nivel 5 | Sublínea |
 
 ![Grupo de artículos](../.gitbook/assets/grupo-articulos.png)
 

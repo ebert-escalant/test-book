@@ -24,6 +24,8 @@ Configuración de la relación entre grupos de artículos y talleros.
 La sincronización descarga los datos actualizados desde SAP al sistema.
 {% endhint %}
 
+<!-- -->
+
 ### Editar
 1. Localice el registro en la tabla
 2. Haga clic en el ícono de edición (✏️)

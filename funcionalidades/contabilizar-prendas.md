@@ -10,6 +10,8 @@ Control de inventario de prendas organizadas por cajas.
 **Ruta:** Menú → Contabilizar prendas
 {% endhint %}
 
+<!-- -->
+
 ## Listado de Órdenes
 
 Muestra las órdenes de compra disponibles para contabilización.

@@ -10,6 +10,8 @@ Gestión de pedidos vinculados con SAP y acceso a la generación de códigos.
 **Ruta:** Menú → Órdenes de compra
 {% endhint %}
 
+<!-- -->
+
 ## Listado de Órdenes
 
 Al acceder verá la tabla con todas las órdenes de compra registradas.

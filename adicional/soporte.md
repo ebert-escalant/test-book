@@ -18,6 +18,8 @@ Información de contacto y guía para reportar problemas.
 Para una atención más rápida, utilice el correo electrónico detallando el problema.
 {% endhint %}
 
+<!-- -->
+
 ## Al Reportar un Problema
 
 Para una resolución más rápida, incluya la siguiente información:

@@ -11,6 +11,8 @@ El sistema puede instalarse como aplicación en su dispositivo para acceso rápi
 
 ![Botón Instalar App](../.gitbook/assets/instalar-app.png)
 
+<!-- -->
+
 ## En Android
 
 1. Abra Chrome y navegue al sistema

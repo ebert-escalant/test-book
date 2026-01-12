@@ -24,6 +24,8 @@ Catálogo de países de origen para los productos.
 La sincronización descarga los datos actualizados desde SAP al sistema. Este catálogo es de solo lectura y se administra desde SAP.
 {% endhint %}
 
+<!-- -->
+
 | Campo | Descripción |
 |-------|-------------|
 | Código | Código del país |
