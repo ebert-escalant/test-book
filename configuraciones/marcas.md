@@ -31,14 +31,9 @@ La sincronización descarga los datos actualizados desde SAP al sistema. Este ca
 |-------|-------------|
 | Código | Código de la marca |
 | Descripción | Nombre de la marca |
-| Valor por defecto | Indica si es la marca predeterminada |
 
 {% hint style="info" %}
 La sincronización descarga los datos actualizados desde SAP al sistema.
-{% endhint %}
-
-{% hint style="success" %}
-El valor por defecto se seleccionará automáticamente en los formularios de creación.
 {% endhint %}
 
 ![Marcas](../.gitbook/assets/marcas.png)
