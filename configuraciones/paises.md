@@ -6,10 +6,27 @@ icon: globe
 
 Catálogo de países de origen para los productos.
 
-**Operaciones disponibles:**
-- Buscar países
-- Sincronizar con SAP
-- Establecer valor por defecto
+**Ruta:** Configuraciones → Países
+
+---
+
+## Operaciones Disponibles
+
+### Buscar
+- Use el campo de búsqueda para filtrar por código o descripción
+- La tabla se actualiza automáticamente
+
+### Sincronizar con SAP
+1. Haga clic en **"Sincronizar con SAP"**
+2. Confirme la acción en el mensaje emergente
+3. Espere a que se complete la sincronización
+4. Los datos se actualizarán automáticamente
+
+{% hint style="info" %}
+La sincronización descarga los datos actualizados desde SAP al sistema. Este catálogo es de solo lectura y se administra desde SAP.
+{% endhint %}
+
+---
 
 | Campo | Descripción |
 |-------|-------------|
@@ -24,3 +41,5 @@ La sincronización descarga los datos actualizados desde SAP al sistema.
 {% hint style="success" %}
 El valor por defecto se seleccionará automáticamente en los formularios de creación.
 {% endhint %}
+
+![Países](../.gitbook/assets/paises.png)

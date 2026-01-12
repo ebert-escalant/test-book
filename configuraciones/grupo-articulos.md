@@ -1,8 +1,55 @@
+---
+icon: chart-bar
+---
+
 # Grupo de Artículos
 
 Gestiona la jerarquía de productos organizada en 5 niveles.
 
 **Ruta:** Configuraciones → Grupo de Artículos
+
+---
+
+## Operaciones Disponibles
+
+### Buscar
+- Use el campo de búsqueda para filtrar por código o descripción
+- La tabla se actualiza automáticamente
+
+### Sincronizar con SAP
+- Haga clic en **"Sincronizar con SAP"**
+- Confirme la acción
+- Se descargarán los datos actualizados desde SAP
+
+{% hint style="info" %}
+La sincronización descarga los datos actualizados desde SAP al sistema.
+{% endhint %}
+
+### Crear Nuevo
+1. Haga clic en **"Nuevo"**
+2. Complete todos los campos requeridos
+3. Haga clic en **"Guardar"**
+
+### Editar
+1. Localice el registro en la tabla
+2. Haga clic en el ícono de edición (✏️)
+3. Modifique los campos necesarios
+4. Haga clic en **"Guardar"**
+
+{% hint style="warning" %}
+**Restricción:** Solo se pueden editar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden modificar.
+{% endhint %}
+
+### Eliminar
+1. Localice el registro en la tabla
+2. Haga clic en el ícono de eliminar (🗑️)
+3. Confirme la acción
+
+{% hint style="danger" %}
+**Restricción:** Solo se pueden eliminar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden eliminar.
+{% endhint %}
+
+---
 
 ## Campos
 

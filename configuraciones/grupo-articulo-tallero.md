@@ -6,10 +6,37 @@ icon: circles
 
 Configuración de la relación entre grupos de artículos y talleros.
 
-**Operaciones disponibles:**
-- Buscar relaciones
-- Sincronizar con SAP
-- Establecer valor por defecto
+**Ruta:** Configuraciones → Grupo Artículo y Tallero
+
+---
+
+## Operaciones Disponibles
+
+### Buscar
+- Use el campo de búsqueda para filtrar por código o descripción
+- La tabla se actualiza automáticamente
+
+### Sincronizar con SAP
+1. Haga clic en **"Sincronizar con SAP"**
+2. Confirme la acción en el mensaje emergente
+3. Espere a que se complete la sincronización
+4. Los datos se actualizarán automáticamente
+
+{% hint style="info" %}
+La sincronización descarga los datos actualizados desde SAP al sistema.
+{% endhint %}
+
+### Editar
+1. Localice el registro en la tabla
+2. Haga clic en el ícono de edición (✏️)
+3. Modifique los campos necesarios
+4. Haga clic en **"Guardar"**
+
+{% hint style="warning" %}
+**Restricción:** Solo se pueden editar los registros creados manualmente. Los registros sincronizados desde SAP no se pueden modificar. Esta configuración determina qué tallero se muestra automáticamente al generar códigos para un grupo de artículo específico.
+{% endhint %}
+
+---
 
 | Campo | Descripción |
 |-------|-------------|
@@ -28,3 +55,5 @@ Configuración de la relación entre grupos de artículos y talleros.
 {% hint style="warning" %}
 Esta configuración determina qué tallero se muestra automáticamente al generar códigos para un grupo de artículo específico.
 {% endhint %}
+
+![Grupo Artículo y Tallero](../.gitbook/assets/grupo-articulo-tallero.png)
