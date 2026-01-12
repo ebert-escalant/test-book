@@ -318,7 +318,51 @@ Encima de la tabla se encuentran:
 - **Botón Actualizar** (🔄): Refresca la lista y estados
 - **Botón Sincronizar con SAP**: Se habilita al seleccionar códigos con checkboxes
 
-### Operaciones Disponibles
+### Operaciones sobre el Proceso de Codificación
+
+Estas acciones se realizan desde la fila principal del proceso (nivel superior):
+
+#### Editar Datos Generales del Proceso
+
+1. Haga clic en el ícono **Editar** (✏️) en la fila principal del proceso
+2. Se abrirá un modal con los datos generales del Paso 1
+3. Modifique los campos necesarios
+4. Haga clic en **"Actualizar"**
+
+{% hint style="info" %}
+Solo se pueden editar los datos generales (Paso 1). Los productos individuales se editan desde su propia acción.
+{% endhint %}
+
+<!-- -->
+
+#### Agregar Más Productos al Proceso
+
+1. Haga clic en el ícono **Agregar** (+) en la fila principal del proceso
+2. Se abrirá el wizard de codificación
+3. El Paso 1 se omite (usa los datos generales del proceso existente)
+4. Comienza directamente en el Paso 2 (Código de Material)
+5. Complete los pasos 2 y 3 normalmente
+
+**Comportamiento:**
+- Los nuevos productos se agregarán al mismo proceso de codificación
+- Compartirán los mismos datos generales (país, temporada, tipo material, etc.)
+- Cada producto puede tener sus propias variantes
+
+#### Eliminar Proceso de Codificación
+
+1. Haga clic en el ícono **Eliminar** (🗑️) en la fila principal del proceso
+2. Confirme la acción en el mensaje emergente
+3. Se eliminará todo el proceso y sus productos asociados
+
+{% hint style="danger" %}
+Esta acción eliminará permanentemente el proceso y todos sus productos. Solo es posible si no tiene productos sincronizados con SAP.
+{% endhint %}
+
+<!-- -->
+
+### Operaciones sobre Códigos Internos (Productos)
+
+Estas acciones se realizan desde cada fila de código interno individual en la tabla expandida:
 
 #### Imprimir Códigos del Producto
 
@@ -378,48 +422,10 @@ Esta opción imprime todas las variantes del código interno seleccionado de una
 
 <!-- -->
 
-#### Ver/Expandir Variantes
+#### Ver Variantes
 
-1. Haga clic en el ícono **Ver** (👁️) o en la flecha **˅** del código interno
+1. Haga clic en el ícono **Ver** (👁️) del código interno
 2. Se desplegará la tabla de variantes individuales (color + talla)
-
-#### Editar Datos Generales del Proceso
-
-1. Haga clic en el ícono **Editar** (✏️) en la fila principal del proceso
-2. Se abrirá un modal con los datos generales del Paso 1
-3. Modifique los campos necesarios
-4. Haga clic en **"Actualizar"**
-
-{% hint style="info" %}
-Solo se pueden editar los datos generales (Paso 1). Los productos individuales se editan desde su propia acción.
-{% endhint %}
-
-<!-- -->
-
-#### Agregar Más Productos al Proceso
-
-1. Haga clic en el ícono **Agregar** (+) en la fila principal del proceso
-2. Se abrirá el wizard de codificación
-3. El Paso 1 se omite (usa los datos generales del proceso existente)
-4. Comienza directamente en el Paso 2 (Código de Material)
-5. Complete los pasos 2 y 3 normalmente
-
-**Comportamiento:**
-- Los nuevos productos se agregarán al mismo proceso de codificación
-- Compartirán los mismos datos generales (país, temporada, tipo material, etc.)
-- Cada producto puede tener sus propias variantes
-
-#### Eliminar Proceso de Codificación
-
-1. Haga clic en el ícono **Eliminar** (🗑️) en la fila principal del proceso
-2. Confirme la acción en el mensaje emergente
-3. Se eliminará todo el proceso y sus productos asociados
-
-{% hint style="danger" %}
-Esta acción eliminará permanentemente el proceso y todos sus productos. Solo es posible si no tiene productos sincronizados con SAP.
-{% endhint %}
-
-<!-- -->
 
 ## Ver y Gestionar Variantes
 
